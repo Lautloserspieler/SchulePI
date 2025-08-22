@@ -41,6 +41,21 @@ Es richtet den Pi als **vertretungsplanfähigen Monitor** ein – mit automatisc
 
 ---
 
+## Systemvoraussetzungen
+
+- **Hardware:** Raspberry Pi 3 / 3B+ / 4 / 400 (empfohlen: Pi 4), Micro‑SD ≥ **16 GB** (Class 10), Netzteil
+  - Pi 3: 5 V / **2.5 A** · Pi 4/400: 5 V / **3 A**
+- **Anzeige:** Monitor/TV mit **HDMI**, passendes Kabel
+- **Eingabegeräte (für Ersteinrichtung):** USB‑Tastatur + Maus
+- **Netzwerk:** WLAN oder Ethernet mit Internetzugang
+- **Betriebssystem:** Raspberry Pi OS **Bookworm** (32‑ oder 64‑bit)
+  - Kiosk stabil unter **X11**. Falls Wayland aktiv ist: `raspi-config` → *Advanced Options* → **Wayland → X11**.
+- **Software/Pakete:** `python3`, `python3-tk`, `chromium-browser` (siehe Installation)
+- **Optional:** UFW‑Firewall, RTC‑Modul (für exakte Uhrzeit ohne Netz), Gehäuse mit aktivem Kühler
+
+
+---
+
 ## Installation
 
 1. Raspberry Pi OS (Bookworm) installieren  
